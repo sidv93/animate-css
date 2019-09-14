@@ -1,0 +1,24 @@
+.swing {
+    animation-name: swing;
+    animation-duration: 1s;
+    transform-origin: center bottom;
+}
+
+@keyframes swing {
+    from,
+    to {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    30% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    50% {
+        transform: rotate3d(0, 0, 1, -15deg);
+    }
+
+    70% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+}

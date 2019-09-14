@@ -1,0 +1,13 @@
+.jello {
+    animation-duration: 1s;
+    animation-name: jello;
+}
+
+@keyframes jello {
+    from,
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+
+    
+}

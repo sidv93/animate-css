@@ -1,0 +1,27 @@
+.wobble {
+    animation-name: wobble;
+    animation-duration: 1s;
+}
+
+@keyframes wobble {
+    from,
+    to {
+        transform: rotate3d(0, 0, 1, 0deg) translate3d(0, 0, 0);
+    }
+
+    20% {
+        transform: rotate3d(0, 0, 1, -5deg) translate3d(-30px, -10px, 0);
+    }
+
+    40% {
+        transform: rotate3d(0, 0, 1, 5deg) translate3d(30px, 10px, 0);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, -3deg) translate3d(-15px, -5px, 0);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, 3deg) translate3d(15px, 5px, 0)
+    }
+}

@@ -1,0 +1,28 @@
+.tada {
+    animation-name: tada;
+    animation-duration: 1s;
+    transform-origin: center bottom;
+}
+
+@keyframes tada {
+    from,
+    to,
+    40% {
+        transform: rotate3d(0, 0, 1, 0deg) scale3d(1, 1, 1);
+    }
+
+    20% {
+        transform: rotate3d(0, 0, 1, -6deg) scale3d(0.7, 0.7, 0.7);
+    }
+
+    60%,
+    80% {
+        transform: rotate3d(0, 0, 1, 7deg);
+    }
+
+    70%,
+    90% {
+        transform: rotate3d(0, 0, 1, -7deg);
+    }
+
+}

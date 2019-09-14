@@ -1,0 +1,33 @@
+.container {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-content {
+    color: #f35626;
+    background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+    animation: hue 60s infinite linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.selection {
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.animate-button {
+    border: 2px solid #f35626;
+    border-radius: 5px;
+    font: inherit;
+    color: #f35626;
+}
+
+.flex-row {
+    flex: 1 100%;
+    text-align: center;
+    margin: 10px auto;
+}
