@@ -9,5 +9,27 @@
         transform: translate3d(0, 0, 0);
     }
 
-    
+    20% {
+        transform: skewX(-12deg) skewY(-12deg);
+    }
+
+    35% {
+        transforn: skewX(6deg) skewY(6deg);
+    }
+
+    50% {
+        transform: skewX(-8deg) skewY(-8deg);
+    }
+
+    65% {
+        transform: skewX(4deg) skewY(4deg);
+    }
+
+    80% {
+        transform: skewX(-3deg) skewY(-3deg);
+    }
+
+    90% {
+        transform: skewX(2deg) skewY(2deg);
+    }
 }

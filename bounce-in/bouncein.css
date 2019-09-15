@@ -1,0 +1,25 @@
+.bounce-in {
+    animation-name: bounce-in;
+    animation-duration: 1s;
+}
+
+@keyframes bounce-in {
+    from,
+    to,
+    10%,
+    40%,
+    80% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    5% {
+        transform: scale3d(0, 0, 0);
+    }
+
+    20%,
+    60% {
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+
+
+}
