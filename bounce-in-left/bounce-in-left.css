@@ -1,0 +1,32 @@
+.bounce-in-left {
+    animation-name: bounce-in-left;
+    animation-duration: 1s;
+}
+
+@keyframes bounce-in-left {
+    from {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(-3000px, 0, 0);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    75% {
+        transform: translate3d(25px, 0, 0);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    90% {
+        transform: translate3d(-10px, 0, 0);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+}
