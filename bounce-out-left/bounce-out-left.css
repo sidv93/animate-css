@@ -1,0 +1,23 @@
+.bounce-out-left {
+    animation: bounce-out-left 1s;
+}
+
+@keyframes bounce-out-left {
+    from,
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    15% {
+        transform: translate3d(20px, 0, 0);
+    }
+
+    45% {
+        transform: translate3d(-2000px, 0, 0);
+    }
+
+    60% {
+        opacity: 0;
+    }
+}

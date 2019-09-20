@@ -1,0 +1,28 @@
+.bounce-out {
+    animation: bounce-out 1s;
+}
+
+@keyframes bounce-out {
+    from,
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+
+    10% {
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    25% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    60% {
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+}
