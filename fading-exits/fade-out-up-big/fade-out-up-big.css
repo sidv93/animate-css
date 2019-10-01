@@ -1,0 +1,15 @@
+.fade-out-up-big {
+    animation: 0.8s fade-out-up-big;
+}
+
+@keyframes fade-out-up-big {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(0, -1000px, 0);
+    }
+}

@@ -1,0 +1,15 @@
+.fade-out-right {
+    animation: 0.8s fade-out-right;
+}
+
+@keyframes fade-out-right {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(100px, 0, 0);
+    }
+}

@@ -1,0 +1,15 @@
+.fade-in-down-big {
+    animation: 0.8s fade-in-down-big;
+}
+
+@keyframes fade-in-down-big {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -1000px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}

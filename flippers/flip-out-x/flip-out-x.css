@@ -1,0 +1,21 @@
+.flip-out-x {
+    animation: 1s flip-out-x;
+    backface-visibility: visible !important;
+}
+
+@keyframes flip-out-x {
+    from {
+        opacity: 1;
+        transform: rotate3d(1, 0, 0, 0deg);
+    }
+
+    20% {
+        transform: rotate3d(1, 0, 0, 40deg);
+    }
+
+    to {
+        opacity: 0;
+        transform: rotate3d(1, 0, 0, -90deg);
+        /* animation-timing-function: ease-in; */
+    }
+}

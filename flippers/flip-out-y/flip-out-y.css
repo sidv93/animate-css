@@ -1,0 +1,20 @@
+.flip-out-y {
+    animation: 1s flip-out-y;
+}
+
+@keyframes flip-out-y {
+    from {
+        opacity: 1;
+        transform: perspective(400px) rotate3d(0, 1, 0, 0deg);
+    }
+
+    20% {
+        transform: perspective(400px) rotate3d(0, 1, 0, -25deg);
+    }
+
+    to {
+        opacity: 0;
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        animation-timing-function: ease-in;
+    }
+}

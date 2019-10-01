@@ -1,0 +1,27 @@
+.flip-in-y {
+    animation: 1s flip-in-y;
+}
+
+@keyframes flip-in-y {
+    from {
+        opacity: 0;
+        transform: rotate3d(0, 1, 0, 90deg);
+    }
+
+    60% {
+        opacity: 1;
+        transform: rotate3d(0, 1, 0, -25deg);
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        opacity: 1;
+        transform: rotate3d(0, 1, 0, 15deg);
+        animation-timing-function: ease-in;
+    }
+
+    to {
+        transform: rotate3d(0, 1, 0, 0deg);
+        animation-timing-function: ease-in;
+    }
+}

@@ -1,0 +1,15 @@
+.fade-out-left-big {
+    animation: 1s fade-out-left-big;
+}
+
+@keyframes fade-out-left-big {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(-1000px, 0, 0);
+    }
+}
