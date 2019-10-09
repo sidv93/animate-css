@@ -1,0 +1,19 @@
+.lightspeed-in {
+    animation: 1s lightspeed-in;
+}
+
+@keyframes lightspeed-in {
+    from {
+        transform: translate3d(300px, 0, 0) skewX(-25deg);
+    }
+
+    80% {
+        transform: translate3d(-30px, 0, 0) skewX(15deg);
+        animation-timing-function: ease-in;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0) skewX(0deg);
+        animation-timing-function: ease-in;
+    }
+}

@@ -1,0 +1,14 @@
+.lightspeed-out {
+    animation: 1s lightspeed-out;
+}
+
+@keyframes lightspeed-out {
+    from {
+        transform: translate3d(0, 0, 0) skewX(0deg);
+    }
+
+    to {
+        transform: translate3d(500px, 0, 0) skewX(20deg);
+        animation-timing-function: ease-in-out;
+    }
+}
