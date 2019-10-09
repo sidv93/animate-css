@@ -1,0 +1,18 @@
+.rotate-in-down-right {
+    animation: 1s rotate-in-down-right;
+}
+
+@keyframes rotate-in-down-right {
+    from {
+        transform-origin: right bottom;
+        opacity: 0;
+        transform: rotate3d(0, 0, 1, 90deg);
+    }
+
+    to {
+        transform-origin: right bottom;
+        opacity: 1;
+        transform: rotate3d(0, 0, 1, 0deg);
+        animation-timing-function: ease-in;
+    }
+}
