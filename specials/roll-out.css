@@ -1,0 +1,15 @@
+.roll-out {
+    animation: 1s roll-out;
+}
+
+@keyframes roll-out {
+    from {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0) translate3d(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(500px, 0, 0) rotate3d(0, 0, 1, 120deg);
+    }
+}

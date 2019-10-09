@@ -1,0 +1,30 @@
+.jack-in-the-box {
+    animation: 1s jack-in-the-box;
+}
+
+@keyframes jack-in-the-box {
+    from {
+        opacity: 0;
+        transform: scale3d(0.1, 0.1, 0.1);
+    }
+
+    40% {
+        opacity: 1;
+        transform-origin: center;
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform-origin: center;
+        transform: rotate3d(0, 0, 1, 7deg);
+    }
+
+    80% {
+        transform-origin: center;
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    to {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}

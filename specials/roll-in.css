@@ -1,0 +1,16 @@
+.roll-in {
+    animation: 1s roll-in;
+}
+
+@keyframes roll-in {
+    from {
+        opacity: 0;
+        transform: translate3d(-500px, 0, 0) rotate3d(0, 0, 1, -90deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0) translate3d(0, 0, 0);
+        animation-timing-function: ease-in-out;
+    }
+}
