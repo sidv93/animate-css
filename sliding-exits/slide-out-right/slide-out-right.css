@@ -1,0 +1,14 @@
+.slide-out-right {
+    animation: 1s slide-out-right;
+}
+
+@keyframes slide-out-right {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(300px, 0, 0);
+        animation-timing-function: ease-in-out;
+    }
+}
