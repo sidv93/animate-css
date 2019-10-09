@@ -1,0 +1,15 @@
+.slide-in-up {
+    animation: 1s slide-in-up;
+}
+
+@keyframes slide-in-up {
+    from {
+        transform: translate3d(0, 100px, 0);
+        animation-timing-function: ease-in;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        animation-timing-function: ease-in;
+    }
+}

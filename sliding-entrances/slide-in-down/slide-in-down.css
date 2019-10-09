@@ -1,0 +1,15 @@
+.slide-in-down {
+    animation: 1s slide-in-down;
+}
+
+@keyframes slide-in-down {
+    from {
+        transform: translate3d(0, -100px, 0);
+        animation-timing-function: ease-in;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        animation-timing-function: ease-in;
+    }
+}
